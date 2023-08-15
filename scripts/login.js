@@ -7,10 +7,10 @@ loginBtn.addEventListener("click", function(){
     const inputPasswordValue = inputPassword.value;
     
     if(inputEmailValue == 'popy@gmail.com' && inputPasswordValue == 1234){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('Invalid user');
+        alert('Wrong Username or Password');
     }
 
 });
