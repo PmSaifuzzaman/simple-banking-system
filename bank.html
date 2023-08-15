@@ -22,7 +22,7 @@
                 </div>
                 <div class="py-12 pl-8 bg-lime-400 rounded-lg text-3xl text-white font-semibold">
                     <h2>Withdraw</h2>
-                    <h3>$ 00</h3>
+                    <h3>$<span id="previousWithdrow">00</span></h3>
                 </div>
                 <div class="py-12 pl-8 bg-red-400 rounded-lg text-3xl text-white font-semibold">
                     <h2>Balance</h2>
@@ -40,17 +40,18 @@
                         Deposit
                     </button>
                 </div>
-                <div class=" py-12 pl-8 bg-fuchsia-400 rounded-lg text-3xl text-white  ">
-                    <h2 class="font-semibold pb-4">$ Please Withdraw</h2>
-                    <input class="block my-3 text-xl py-2 w-9/12 pl-6 mb-4 rounded-lg" type="password" name="" id="inputPassword"
+                <div class=" py-12 pl-8 bg-fuchsia-400 rounded-lg  ">
+                    <h2 class="font-semibold pb-4 text-3xl text-white">$ Please Withdraw</h2>
+                    <input class="block my-3 text-xl py-2 w-9/12 pl-6 mb-4 rounded-lg" type="text" name="" id="inputNewWithdrow"
                     placeholder="$ Enter amount you want to Withdraw" />
-                    <button id="loginBtn" class="bg-red-400 px-7 py-3 mt-3 rounded-lg text-white font-medium hover:bg-cyan-950">
-                        Submit
+                    <button id="withdrowBtn" class="bg-red-400 px-7 py-3 mt-3 rounded-lg text-white text-2xl font-medium hover:bg-cyan-950">
+                        Withdrow
                     </button>
                 </div>
             </div>
         </section>
     </main>
     <script src="./scripts/deposit.js"></script>
+    <script src="./scripts/withdrow.js"></script>
 </body>
 </html>
